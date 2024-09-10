@@ -62,3 +62,59 @@ const criarMeta = () => {} // arrow function
 
 function criarMeta() {}
 ~~~
+
+# Aula 02 - Iniciando a aplicação com JavaScript
+Ao iniciar uma função, deve-se executá-la.
+~~~javascript
+const start = () => {
+    console.log('Começou')
+}
+start()
+
+/* ou:
+function start() {
+    console.log('Começou')
+}
+start()
+*/
+~~~
+## Estrutura de repetição
+### while
+~~~javascript
+const start = () => {
+    let count = 1
+    while(count <= 10){
+        console.log(count)
+        count++ //count = count + 1 
+    }
+
+}
+
+start()
+~~~
+## Condicional
+### switch
+~~~javascript
+const start = () => {
+    while(true){
+        let opcao = "Sair"
+        switch(opcao){
+            case "Cadastrar":
+                console.log("Vamos cadastrar")
+                break
+            case "Listar":
+                console.log("Vamos listar")
+                break
+            case "Sair":
+                return
+        }
+    }
+}
+start()
+~~~
+## Módulos em Node.js:
+- Importação de módulos (require, CommonJS)
+- Biblioteca 'inquirer' para criar prompts interativos
+~~~javascript
+const { select } = require('@inquirer/prompts')
+~~~
