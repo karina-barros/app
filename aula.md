@@ -64,7 +64,7 @@ function criarMeta() {}
 ~~~
 
 # Aula 02 - Iniciando a aplicação com JavaScript
-Ao iniciar uma função, deve-se executá-la.
+Iniciar uma função e executá-la.
 ~~~javascript
 const start = () => {
     console.log('Começou')
@@ -118,3 +118,9 @@ start()
 ~~~javascript
 const { select } = require('@inquirer/prompts')
 ~~~
+
+# Aula 03 - Finalizando a aplicação
+## JSON
+- Javascript Object Notation (.json)
+- ```JSON.parse()```: transforma de JSON para JS
+- ```JSON.stringify()```: transforma de JS para JSON
