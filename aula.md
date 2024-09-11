@@ -121,6 +121,6 @@ const { select } = require('@inquirer/prompts')
 
 # Aula 03 - Finalizando a aplicação
 ## JSON
-- Javascript Object Notation (.json)
+- JavaScript Object Notation (.json)
 - ```JSON.parse()```: transforma de JSON para JS
 - ```JSON.stringify()```: transforma de JS para JSON
